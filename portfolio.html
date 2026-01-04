@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div id="h1"><b>Portfolio-website</b></div> 
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p><span>Fulls</span><span>tack Dev</span><span>eloper &</span><span> UI/UX Designer</span></p>
+                <h1>
+                    <span>Hi, I'm </span><span>Hrishi</span><span>kesh</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+
+<!---------------about---------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpeg" alt="A picture of me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>Abo</span><span>ut </span><span>Me</span></h1>
+                    <br>
+                    <p>I am a passionate Full Stack Developer and UI/UX Designer with a knack for bridging the gap between aesthetics and engineering. Currently pursuing my B.Tech in Computer Science at VIT Chennai, I specialize in building responsive web and mobile applications that are not only functional but also visually compelling. I believe that good design is just as important as clean code.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2028-Current</span><br>Software Developer at Google</li>
+                            <li><span>2027-2028</span><br>Internship at Google</li>
+                            <li><span>2026-2027</span><br>Internship at Meta</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2028</span><br>B.Tech in CS specialization in DS from VIT Chennai</li>
+                            <li><span>2024</span><br>12th at School 2</li>
+                            <li><span>2022</span><br>10th at School 1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------services------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"><span>My S</span><span>ervi</span><span>ces</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I build responsive, fast-loading, and visually stunning websites. From simple landing pages to complex web applications, I ensure your site looks great on every device and runs smoothly.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>I craft intuitive user interfaces and seamless user experiences. By focusing on wireframing, prototyping, and user research, I turn complex ideas into simple, beautiful designs that users love.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>I design and develop functional mobile applications for both iOS and Android. My focus is on creating smooth, native-like experiences with clean code and robust performance.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+<!-------------portfolio--------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"><span>My </span><span>Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people from around the world. Download it from the Play Store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app lets you listen to music of all genres without any ads interrupting your listening experience. Download it from the Play Store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app allows you to shop all kinds of wearables and fashion accesories all in a few clicks. Download it from the Play Store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------contact-------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Cont</span><span>act Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i> myemail@email.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 9876543210</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/fauxresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Hrishikesh.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
