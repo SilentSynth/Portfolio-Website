@@ -60,6 +60,6 @@ SilentSynth
 
 GitHub: SilentSynth
 
-Email: (Add your email if you want)
+Email: hrishikeshdnayak@gmail.com
 
 ⭐️ If you like this portfolio, feel free to give the repo a star!
