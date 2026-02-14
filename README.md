@@ -6,7 +6,7 @@ A clean, responsive personal portfolio website built to showcase my projects, sk
 
 Watch a quick walkthrough of the portfolio website:
 
-https://github.com/user-attachments/assets/b1a0a049-79ac-41d8-aacc-d760c31999fa
+Uploading Portfolio-website-demo-video.mp4…
 
 ## 🚀 Features
 
